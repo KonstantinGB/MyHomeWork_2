@@ -17,7 +17,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 if(num > 99 && num < 1000)    
 {
     int twonumber = VtoroeChislo(num);
-    Console.WriteLine(twonumber);
+    Console.WriteLine($"Вторая цифра: {twonumber}");
 }
 else 
 {

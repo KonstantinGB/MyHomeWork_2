@@ -19,7 +19,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 if (num > 99)
 {
     int threenumber = ThreeNumber(num);
-    Console.WriteLine(threenumber);
+    Console.WriteLine($" Третья цифра: {threenumber}");
 }
 else
     Console.WriteLine("В вашем числе меньше трех цифр");
